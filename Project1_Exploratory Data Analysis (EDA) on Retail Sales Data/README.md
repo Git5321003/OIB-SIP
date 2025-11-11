@@ -35,6 +35,13 @@ The dataset contains weekly sales information for multiple Walmart stores along 
 
 ---
 
+## Working Structure
+
+<img width="336" height="576" alt="image" src="https://github.com/user-attachments/assets/ca26cb84-819c-4008-bc01-c6e9a8cdd83d" />
+
+
+---
+
 ## ⚙️ Approach / Methodology
 1. **Data Cleaning & Preprocessing**
    - Handled missing values and outliers.
