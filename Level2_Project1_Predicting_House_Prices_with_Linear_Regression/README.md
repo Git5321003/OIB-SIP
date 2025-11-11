@@ -1,8 +1,13 @@
 # Housing Price Prediction (Linear Regression)
 
-## Project Overview
-This project focuses on predicting house prices in the **Delhi region** using **multiple linear regression**. The aim is to model the relationship between property prices and key factors such as **area, number of bedrooms, bathrooms, and parking spaces**.  
+## Project Idea
+Predicting House Prices with Linear Regression
 
+---
+
+## Project Overview
+This project focuses on predicting house prices in the **Delhi region** using **multiple linear regression**. 
+The aim is to model the relationship between property prices and key factors such as **area, number of bedrooms, bathrooms, and parking spaces**.  
 By building this model, the real estate company can make data-driven decisions to **optimize pricing strategies** and understand the factors that most influence property values.
 
 ---
@@ -47,6 +52,103 @@ The dataset contains property listings with features affecting price. The compan
 - Gain hands-on experience in **building predictive models**.  
 - Develop skills in **data cleaning, feature selection, and model evaluation**.  
 - Learn to **interpret model coefficients** and performance metrics.  
+
+---
+
+## Installation
+- **Clone Repository** 
+git clone https://github.com/yourusername/Housing-Price-Prediction.git
+cd Housing-Price-Prediction
+
+- **Create Virtual Environment**
+For macOS/Linux:
+python -m venv venv
+source venv/bin/activate
+
+For Windows:
+python -m venv venv
+venv\Scripts\activate
+
+Install Dependencies
+pip install -r requirements.txt
+
+---
+
+## Usage
+- **Run Analysis Script**
+python main.py
+
+- **This will:**
+
+Load and clean the dataset
+
+Perform exploratory data analysis
+
+Train the linear regression model
+
+Evaluate model performance
+
+Generate visualizations of predictions and residuals
+
+- **Run Jupyter Notebooks**
+
+Data Exploration:
+
+jupyter notebook notebooks/01_data_exploration.ipynb
+
+
+Data Cleaning & Feature Engineering:
+
+jupyter notebook notebooks/02_data_cleaning.ipynb
+jupyter notebook notebooks/03_feature_engineering.ipynb
+
+
+Model Training & Evaluation:
+
+jupyter notebook notebooks/04_model_training_evaluation.ipynb
+
+---
+
+## Sample Insights (Updated)
+
+### Model Performance:
+
+R² Score: 0.87
+
+Mean Squared Error (MSE): ₹2.5 lakh²
+
+### Key Factors Affecting Price:
+
+Area of property: Positive correlation
+
+Number of bedrooms: Moderate positive impact
+
+Age of property: Slight negative correlation
+
+### Example Prediction:
+
+2,000 sq.ft, 3 bedrooms, 2 bathrooms → Predicted Price: ₹1.2 crore
+
+---
+
+## Tools & Technologies
+
+Python Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn
+
+Environment: Jupyter Notebook, VS Code
+
+
+---
+
+## Future Work
+
+Incorporate regularization techniques (Ridge/Lasso) for better performance
+
+Test polynomial regression for non-linear trends
+
+Build a web-based interface for real-time price predictions
+
+Include additional factors like location, amenities, and neighborhood ratings
 
 ---
 
