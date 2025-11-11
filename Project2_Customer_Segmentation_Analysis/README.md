@@ -10,6 +10,11 @@ In this project, we performed **Customer Segmentation Analysis** using K-Means c
 
 ---
 
+## Project Structure
+<img width="582" height="221" alt="image" src="https://github.com/user-attachments/assets/120f6bb0-43e7-4ded-9e9a-95e4afb29a3d" />
+
+---
+
 ## Objectives
 The main objectives of this project are:  
 - To explore and clean customer data for analysis.  
@@ -96,4 +101,5 @@ The main objectives of this project are:
 
 ## Conclusion
 This project demonstrates how **customer segmentation** can help businesses tailor marketing strategies for different customer groups. By analyzing income, relationship status, and purchasing behavior, we identified four meaningful customer segments, each with unique characteristics and marketing needs. Implementing targeted campaigns based on these insights can improve customer engagement, sales, and overall marketing efficiency.
+
 
