@@ -13,34 +13,8 @@ providing actionable insights into public opinion, customer feedback, and social
 ---
 
 ## Project Structure
-twitter_sentiment_analysis/
-│
-├── data/
-│   ├── raw/
-│   │   └── Twitter_Data.csv
-│   └── processed/
-│       └── cleaned_data.csv
-│
-├── models/
-│   ├── trained_models/
-│   └── model_evaluation/
-│
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_preprocessing.ipynb
-│   ├── 03_model_training.ipynb
-│   └── 04_evaluation_visualization.ipynb
-│
-├── src/
-│   ├── __init__.py
-│   ├── data_preprocessing.py
-│   ├── model_training.py
-│   ├── evaluation.py
-│   └── visualization.py
-│
-├── requirements.txt
-├── main.py
-└── README.md
+<img width="517" height="473" alt="image" src="https://github.com/user-attachments/assets/b6d153f6-9d7d-40bd-b3d5-7fe121986612" />
+<img width="473" height="301" alt="image" src="https://github.com/user-attachments/assets/9dee56c2-5b05-47f4-81ef-3331e6b4fc67" />
 
 ---
 
@@ -210,3 +184,4 @@ Perform sentiment analysis in multiple languages
 Real-time sentiment analysis on Twitter streaming data
 
 Analyze sentiment trends for specific hashtags or topics over time
+
