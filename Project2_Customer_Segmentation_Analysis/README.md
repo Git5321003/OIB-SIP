@@ -1,5 +1,8 @@
 # Marketing Analytics: Customer Segmentation
 
+## Project Idea
+Customer Segmentation Analysis
+
 ## Project Overview
 Customer segmentation is a key marketing strategy that involves dividing a customer base into distinct segments based on shared characteristics, behaviors, or demographics. This allows businesses to understand customer needs more deeply and deliver personalized, targeted marketing campaigns.  
 
@@ -93,3 +96,4 @@ The main objectives of this project are:
 
 ## Conclusion
 This project demonstrates how **customer segmentation** can help businesses tailor marketing strategies for different customer groups. By analyzing income, relationship status, and purchasing behavior, we identified four meaningful customer segments, each with unique characteristics and marketing needs. Implementing targeted campaigns based on these insights can improve customer engagement, sales, and overall marketing efficiency.
+
