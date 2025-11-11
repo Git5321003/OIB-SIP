@@ -1,5 +1,8 @@
 # 🛒 Walmart Demand and Forecasting Solution
 
+## Project Idea
+Exploratory Data Analysis (EDA) on Retail Sales Data
+
 ## 🎯 Problem Statement
 The retail store is facing challenges in managing inventory efficiently to balance demand with supply across multiple outlets in the country.
 
