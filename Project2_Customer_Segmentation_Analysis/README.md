@@ -64,7 +64,7 @@ This project performs **customer segmentation analysis** using clustering techni
 - **Optimal clusters:** 4  
 - **Cluster Summary:**
 | Cluster | Description | Approx. % of Customers |
-|---------|-------------|----------------------|
+|---------|-------------|------------------------|
 | 0       | High-value couples | 25% |
 | 1       | Budget-conscious singles | 20% |
 | 2       | High-income singles | 18% |
@@ -106,4 +106,5 @@ This project performs **customer segmentation analysis** using clustering techni
 
 ## Conclusion
 This analysis highlights the importance of customer segmentation in marketing strategy. By identifying four distinct customer segments, companies can deliver tailored campaigns that maximize engagement and sales. The insights generated from this project provide actionable directions for marketing, product promotion, and customer relationship management.
+
 
