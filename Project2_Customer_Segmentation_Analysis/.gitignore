@@ -1,0 +1,25 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data files (except raw data)
+data/processed/
+!data/raw/
+
+# Model files
+models/
+*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
