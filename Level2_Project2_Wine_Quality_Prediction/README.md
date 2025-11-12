@@ -34,31 +34,8 @@ Each sample is described by 11 physicochemical attributes and one sensory score 
 ---
 
 ## Project Structure
-wine-quality-prediction/
-│
-├── data/
-│   └── WineQT.csv
-│
-├── notebooks/
-│   └── wine_quality_analysis.ipynb
-│
-├── src/
-│   ├── __init__.py
-│   ├── data_preprocessing.py
-│   ├── model_training.py
-│   └── evaluation.py
-│
-├── models/
-│   └── (saved models)
-│
-├── results/
-│   ├── feature_importance.png
-│   ├── confusion_matrices.png
-│   └── model_comparison.png
-│
-├── requirements.txt
-├── main.py
-└── README.md
+<img width="490" height="579" alt="image" src="https://github.com/user-attachments/assets/a1e9a4e6-c1fb-4109-8892-31db8af90238" />
+<img width="432" height="108" alt="image" src="https://github.com/user-attachments/assets/d5f74877-486f-4761-b19d-0709dbabce1a" />
 
 ---
 
@@ -129,13 +106,13 @@ Three models were implemented:
    git clone https://github.com/<your-username>/wine-quality-prediction.git
    cd wine-quality-prediction
    
-2. Install dependencies
+2. Install dependencies: 
    pip install -r requirements.txt
 
-3. Run the notebook or script
+3. Run the notebook or script: 
    jupyter notebook wine_quality_prediction.ipynb
 
-4. View results
+4. View results: 
    Model evaluation metrics and visualizations will be displayed inline.
 
 ---
@@ -167,3 +144,4 @@ J. Paulo Cortez et al., "Modeling wine preferences by data mining from physicoch
 This project demonstrates how machine learning can effectively classify wine quality using measurable physicochemical indicators.
 Among the models tested, the Random Forest Classifier yielded the most reliable and interpretable results, 
 showing that ensemble techniques are particularly powerful for multi-feature datasets.
+
