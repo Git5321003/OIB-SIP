@@ -1,4 +1,4 @@
-# 🧠 Autocomplete and Autocorrect Data Analytics  
+# 🧠 Autocomplete and Autocorrect Data Analytics  [Credit Card Fraud Detection]
 
 ## 📘 Project Overview  
 This project explores and enhances the **efficiency and accuracy** of **autocomplete** and **autocorrect** algorithms using **Natural Language Processing (NLP)**.  
@@ -169,3 +169,4 @@ Integrate personalized context adaptation for user typing behavior.
 Explore real-time deployment in chatbots and virtual keyboards.
 
 Incorporate reinforcement learning for adaptive correction.
+
