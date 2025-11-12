@@ -1,0 +1,40 @@
+
+### `run_analysis.py`
+```python
+#!/usr/bin/env python3
+"""
+Main script to run the complete Android App Market analysis
+"""
+
+import os
+import sys
+from src.data_cleaning import clean_dataset
+from src.analysis_functions import perform_comprehensive_analysis
+from src.visualization import create_all_visualizations
+
+def main():
+    """Execute the complete analysis pipeline"""
+    print("🚀 Starting Android App Market Analysis...")
+    
+    # Create directories
+    os.makedirs('data', exist_ok=True)
+    os.makedirs('visualizations', exist_ok=True)
+    os.makedirs('reports', exist_ok=True)
+    
+    # Data cleaning
+    print("📊 Step 1: Data Cleaning...")
+    df_cleaned = clean_dataset('data/apps.csv')
+    df_cleaned.to_csv('data/apps_cleaned.csv', index=False)
+    
+    # Analysis
+    print("📈 Step 2: Performing Analysis...")
+    analysis_results = perform_comprehensive_analysis(df_cleaned)
+    
+    # Visualization
+    print("🎨 Step 3: Creating Visualizations...")
+    create_all_visualizations(df_cleaned, analysis_results)
+    
+    print("✅ Analysis Complete! Check the visualizations and reports folders.")
+
+if __name__ == "__main__":
+    main()
