@@ -1,0 +1,83 @@
+Jupyter Notebooks
+
+notebooks/01_data_preparation.ipynb
+
+python
+# This would be a Jupyter notebook. Here's the content structure:
+
+"""
+# Data Preparation - Android App Market Analysis
+
+## Import Libraries
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import sys
+sys.path.append('../src')
+from data_cleaning import clean_dataset
+from utils import print_analysis_summary
+
+
+1. Load Data
+
+# Load raw data
+df = pd.read_csv('../data/apps.csv')
+print(f"Dataset shape: {df.shape}")
+df.head()
+
+
+2. Initial Data Exploration
+
+# Basic info
+df.info()
+df.describe()
+
+
+3. Data Cleaning
+
+# Clean the dataset
+df_cleaned = clean_dataset('../data/apps.csv')
+
+
+4. Data Validation
+
+# Check cleaned data
+print_analysis_summary({'basic_stats': {
+    'total_apps': len(df_cleaned),
+    'total_categories': df_cleaned['Category'].nunique(),
+    'free_apps': len(df_cleaned[df_cleaned['Type'] == 'Free']),
+    'paid_apps': len(df_cleaned[df_cleaned['Type'] == 'Paid']),
+    'avg_rating': df_cleaned['Rating'].mean()
+}})
+
+
+5. Save Cleaned Data
+
+df_cleaned.to_csv('../data/apps_cleaned.csv', index=False)
+print("Data preparation complete!")
+
+
+"""
+
+## 🚀 How to Run
+
+a. **Setup**:
+```bash
+pip install -r requirements.txt
+
+
+b. Run Complete Analysis:
+
+python run_analysis.py
+
+
+c. Run Individual Notebooks:
+
+jupyter notebook notebooks/01_data_preparation.ipynb
+
+
+This complete structure provides a robust foundation for your 
+Android App Market Analysis project with modular code, comprehensive documentation, 
+and interactive visualizations.
