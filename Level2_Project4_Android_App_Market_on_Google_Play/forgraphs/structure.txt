@@ -1,0 +1,42 @@
+🚀 How to Run the Visualizations
+
+1. Run Complete Analysis:
+
+(bash)
+python run_analysis.py
+
+2. Run Quick Visualizations Only:
+
+(bash)
+python create_quick_visualizations.py
+
+3. View Generated Visualizations:
+
+Open HTML files in visualizations/ folder for interactive charts
+
+Check PNG files for static visualizations
+
+Main dashboard: visualizations/comprehensive/main_dashboard.html
+
+
+📊 Generated Visualizations Include:
+
+Category Analysis: Treemaps, bar charts, performance matrices
+
+Rating Analysis: Distribution charts, scatter plots, box plots
+
+Pricing Insights: Price distributions, revenue analysis, monetization trends
+
+Popularity Metrics: Installation patterns, success matrices, correlation heatmaps
+
+Size Analysis: Size distributions, performance impact
+
+Content Rating: Audience analysis, rating patterns
+
+Temporal Trends: Update patterns, market evolution
+
+Interactive Dashboards: Comprehensive exploration tools
+
+
+
+The code includes both static PNG images for reports and interactive HTML files for detailed exploration!
